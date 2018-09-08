@@ -16,7 +16,7 @@ body{
 }
 .sec-1 .row  .n {
     height: 100vh;
-    background : url("/assets/josh-nuttall-271928.jpg");
+    background : url("../assets/josh-nuttall-271928.jpg");
     background-position: center;
     background-size: cover;
 }
