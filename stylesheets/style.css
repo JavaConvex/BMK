@@ -39,7 +39,7 @@ body{
         display:none;
     }
     .sec-1 .row{
-        background : url("/assets/josh-nuttall-271928.jpg");
+        background : url("../assets/josh-nuttall-271928.jpg");
         background-position: center;
         background-size: cover;
     }
