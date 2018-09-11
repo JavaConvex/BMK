@@ -5,11 +5,20 @@
 body{
     font-family: "Heebo" , sans-serif;
 }
+.navbar-brand {
+    font-family: "Barlow", sans-serif;
+}
+
+.nav-link{
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
 .sec-1{
     height: 100vh;
 }
 .sec-1 .p {
-    padding-top:120px;
+    padding-top:100px;
     height: 100vh;
     background:#0d0d0d;
     
@@ -22,7 +31,7 @@ body{
 }
 
 .sec-1 .welcome-text span{
-    font-size: 6em;
+    font-size: 5em;
     line-height: 90px;
     height:auto;
     letter-spacing: 2px;
@@ -32,14 +41,49 @@ body{
 }
 .nav-link:hover{
     border-bottom: 1px solid #5DBCD2;
-    transition: 0.7s;
+}
+.content { 
+    padding:3em;
+    background: #CCC;
+}
+.content .row .col-md-6,.content .row .col-lg-6,.content .row .col-xs-6{
+    padding:0;
+}
+.content .row img {
+    height: 100%;
+    width: 100%;
+}
+.content .row .txt{
+    padding: 2.5em;
+    background: white;
+}
+.content .row .txt h1{
+    font-weight: 800;
+}
+.rule {
+    background: url("../assets/josh-nuttall-271926.jpg");
+    max-height:60vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rule h2{
+    height:auto;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: "Anton", sans-serif;
+    color:#5DBCD2;
+}
+.rule .brand{
+    max-width: 60vw;
 }
 @media(max-width:860px){
     .sec-1 .row  .n{
         display:none;
     }
     .sec-1 .row{
-        background : url("../assets/josh-nuttall-271928.jpg");
+        background : url("/assets/josh-nuttall-271928.jpg");
         background-position: center;
         background-size: cover;
     }
