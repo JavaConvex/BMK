@@ -8,20 +8,16 @@ body{
 .navbar-brand {
     font-family: "Barlow", sans-serif;
 }
-
 .nav-link{
     font-size: 14px;
-    letter-spacing: 3px;
 }
-
 .sec-1{
     height: 100vh;
 }
 .sec-1 .p {
     padding-top:100px;
     height: 100vh;
-    background:#0d0d0d;
-    
+    background:#0d0d0d;  
 }
 .sec-1 .row  .n {
     height: 100vh;
@@ -29,7 +25,6 @@ body{
     background-position: center;
     background-size: cover;
 }
-
 .sec-1 .welcome-text span{
     font-size: 5em;
     line-height: 90px;
@@ -43,13 +38,13 @@ body{
     border-bottom: 1px solid #5DBCD2;
 }
 .content { 
-    padding:3em;
+    padding:8em;
     background: #CCC;
 }
-.content .row .col-md-6,.content .row .col-lg-6,.content .row .col-xs-6{
+.content .row .col-md-6,.content .row .col-lg-6,.content .row .col-xs-6, .jman .row .col-md-5, .jman .row .col-lg-7 {
     padding:0;
 }
-.content .row img {
+.content .row img{
     height: 100%;
     width: 100%;
 }
@@ -57,26 +52,86 @@ body{
     padding: 2.5em;
     background: white;
 }
-.content .row .txt h1{
-    font-weight: 800;
+.content .row .txt h2{
+    font-weight: bolder;
 }
 .rule {
-    background: url("../assets/josh-nuttall-271926.jpg");
-    max-height:60vh;
+    background-image:  url("../assets/josh-nuttall-271926.jpg");
+    max-height:80vh;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.rule h2{
+.rule h2, .comp .comp-text h1, .jman h3, .about h2, .exp h1{
     height:auto;
     letter-spacing: 2px;
     font-weight: 500;
     font-family: "Anton", sans-serif;
     color:#5DBCD2;
 }
+.content .row p {
+    padding-top: 9%;
+    padding-bottom:0;
+}
 .rule .brand{
     max-width: 60vw;
+}
+.goto {
+    padding:0;
+    margin:0;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+.card{
+    margin:0;
+}
+.card:hover {
+    margin: -5px;
+    -ms-transition: margin ease-out 0.6s;
+    -moz-transition: margin ease-out 0.6s;
+    -webkit-transition: margin ease-out 0.6s;
+    transition: margin ease-in-out 0.6s;    
+}
+.card-text {
+    max-width:80%;
+}
+.jman .josh img {
+    height: 100%;
+    width: 100%;
+}
+.about {
+    background: url("../assets/bike-blueprint.png") #000;
+    background-attachment: fixed;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.exp .l {
+    margin: 0 25%;
+}
+.v{
+    border-right: 1px solid #000;
+    height:220px;
+    position: absolute;
+    left: 100%;
+    margin-left: -3px;
+    top:10%;
+}
+.h{
+    display:none;
+}
+
+footer h1{
+    font-weight: bolder;
+    font-size: 2.5em;
+    letter-spacing: -3px;
+}
+
+footer .con {
+    font-size: 2em;
 }
 @media(max-width:860px){
     .sec-1 .row  .n{
@@ -94,5 +149,27 @@ body{
         border:0;
         
     }
-    
+    .jman .josh {
+        height: 100vh;
+    }
+    .jman .josh2 {
+        height: 50%;
+        width: 100%;
+    }
+}
+@media(max-width:578px){
+    .content{
+        padding : 2em;
+    }  
+}
+@media(max-width:768px){
+    .v{
+        display: none;
+    }
+    .h{
+       display: block;
+    }
+    .exp .l {
+        margin: 0 20%;
+    }
 }
