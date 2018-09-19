@@ -130,15 +130,12 @@ footer h1{
     letter-spacing: -3px;
 }
 
-footer .con {
-    font-size: 1em;
-}
 @media(max-width:860px){
     .sec-1 .row  .n{
         display:none;
     }
     .sec-1 .row{
-        background : url("/assets/josh-nuttall-271928.jpg");
+        background : url("../assets/josh-nuttall-271928.jpg");
         background-position: center;
         background-size: cover;
     }
